@@ -1,0 +1,171 @@
+error_message,bug_or_error_type
+Unable to locate element: #loginBtn                              ,Bug
+NoSuchElementException: Element not found: #submitButton       ,Bug
+StaleElementReferenceException: Element is no longer attached   ,Bug
+TimeoutException: Timed out after 10 seconds waiting for  element with id "username" to be clickable      ,Error
+InvalidSelectorException: Invalid CSS selector: .btn-login      ,Error
+ElementNotInteractableException: Element is not interactable    ,Error
+NoSuchWindowException: Window not found: {window handle}        ,Bug
+ElementNotVisibleException: Element is not currently visible    ,Error
+ElementClickInterceptedException: Element is obscured           ,Bug
+InvalidElementStateException: Element is not currently enabled ,Bug
+NoSuchElementException: Element not found: #dropdownList        ,Bug
+InvalidSelectorException: Invalid XPath expression: //div[@id]  ,Error
+ElementNotSelectableException: Element is not selectable        ,Error
+NoSuchFrameException: No frame element found by name or id      ,Bug
+InvalidCoordinatesException: Coordinates out of bounds          ,Bug
+UnhandledAlertException: Modal dialog present: {alert text}     ,Bug
+NoSuchElementException: Element not found: #checkbox            ,Bug
+TimeoutException: Timed out waiting for element to be clickable ,Error
+InvalidElementStateException: Element is not currently focused  ,Bug
+WebDriverException: Unable to find a matching set of capabilities ,Bug
+ElementNotVisibleException: Element is not displayed            ,Error
+InvalidSelectorException: Invalid locator strategy: //byId      ,Error
+ElementNotSelectableException: Element is not selectable        ,Error
+NoSuchFrameException: No frame element found by name or id      ,Bug
+InvalidCoordinatesException: Coordinates out of bounds          ,Bug
+UnhandledAlertException: Modal dialog present: {alert text}     ,Bug
+NoSuchElementException: Element not found: #submitButton       ,Bug
+InvalidSelectorException: Invalid CSS selector: .btn-submit    ,Error
+ElementNotInteractableException: Element is not interactable    ,Error
+NoSuchWindowException: Window not found: {window handle}        ,Bug
+ElementNotVisibleException: Element is not currently visible    ,Error
+ElementClickInterceptedException: Element is obscured           ,Bug
+InvalidElementStateException: Element is not currently enabled ,Bug
+InvalidSelectorException: Invalid XPath expression: //div[@id]  ,Error
+ElementNotSelectableException: Element is not selectable        ,Error
+NoSuchFrameException: No frame element found by name or id      ,Bug
+InvalidCoordinatesException: Coordinates out of bounds          ,Bug
+UnhandledAlertException: Modal dialog present: {alert text}     ,Bug
+TimeoutException: Timed out after 10 seconds waiting for        ,Error
+InvalidSelectorException: Invalid CSS selector: .btn-login      ,Error
+ElementNotInteractableException: Element is not interactable    ,Error
+NoSuchWindowException: Window not found: {window handle}        ,Bug
+ElementNotVisibleException: Element is not currently visible    ,Error
+ElementClickInterceptedException: Element is obscured           ,Bug
+InvalidElementStateException: Element is not currently enabled ,Bug
+InvalidSelectorException: Invalid XPath expression: //div[@id]  ,Error
+ElementNotSelectableException: Element is not selectable        ,Error
+NoSuchFrameException: No frame element found by name or id      ,Bug
+InvalidCoordinatesException: Coordinates out of bounds          ,Bug
+UnhandledAlertException: Modal dialog present: {alert text}     ,Bug
+SQLSyntax ErrorException: Table 'users' doesn't exist            ,Bug
+SQLException: Invalid column name 'email'                        ,Bug
+DataAccessException: Error executing SQL query                    ,Bug
+SQLException: Cannot insert null into column 'id'                ,Bug
+InvalidConfigurationException: Database connection failed        ,Bug
+NullPointerException: Connection object is null                 ,Bug
+SQLException: Duplicate entry for key 'PRIMARY'                  ,Bug
+SQLException: Column 'name' cannot be null                       ,Bug
+InvalidQueryException: Invalid query syntax                      ,Error
+DataAccessException: Error fetching data from the database       ,Error
+SQLException: Incorrect syntax near the keyword 'SELECT'         ,Error
+SQLSyntax ErrorException: Unknown column 'username' in 'users'   ,Bug
+DataIntegrityViolationException: Integrity constraint violation  ,Bug
+SQLException: Invalid parameter index: 3                         ,Error
+InvalidQueryException: Query is missing required parameters      ,Error
+SQLException: Timeout expired for query                          ,Error
+DataAccessException: Failed to execute stored procedure           ,Bug
+InvalidQueryException: Empty result set returned                 ,Error
+SQLException: Invalid data type for column 'age'                  ,Bug
+NoSuchColumnException: Column 'timestamp' not found              ,Bug
+SQLException: Cannot delete or update a parent row                ,Bug
+InvalidQueryException: Query parameters exceeded the limit       ,Error
+DataAccessException: Failed to commit transaction                ,Bug
+SQLException: Unknown database 'mydb'                            ,Bug
+SQLSyntax ErrorException: Missing keyword 'FROM'                  ,Error
+DataIntegrityViolationException: Duplicate key value              ,Bug
+SQLException: Connection reset by peer                           ,Bug
+InvalidQueryException: Invalid table name 'users'                ,Bug
+SQLException: Column count doesn't match value count             ,Bug
+DataAccessException: Failed to update database record            ,Bug
+SQLException: Cannot create table 'orders'                       ,Bug
+InvalidQueryException: Invalid parameter value                   ,Error
+SQLSyntax ErrorException: Invalid column type 'varchar2'          ,Bug
+DataAccessException: Error connecting to the database            ,Bug
+SQLException: No suitable driver found                           ,Bug
+InvalidQueryException: Missing query parameters                  ,Error
+SQLException: Unknown host: localhost                           ,Bug
+DataAccessException: Error reading data from the database         ,Error
+SQLSyntax ErrorException: Invalid column name 'address'            ,Bug
+NullPointerException: ResultSet object is null                   ,Bug
+SQLException: Table 'products' already exists                    ,Bug
+InvalidQueryException: Query contains unsupported characters     ,Error
+SQLException: Duplicate column name 'email'                      ,Bug
+DataIntegrityViolationException: Violation of unique constraint  ,Bug
+SQLException: Column 'password' cannot be null                   ,Bug
+InvalidQueryException: Invalid query format                      ,Error
+SQLException: Failed to retrieve data from the database          ,Bug
+NoSuchTableException: Table 'orders' not found                   ,Bug
+SQLException: Connection is closed                               ,Bug
+InvalidQueryException: Invalid parameter type                    ,Error
+SQLSyntax ErrorException: Unknown database driver                  ,Bug
+DataAccessException: Error executing database script              ,Bug
+Assertion Error expected 1 found 0                                ,Bug
+Assertion Error expected false found true,Bug
+Assertion Error expected String found integer,Bug
+HadoopIllegalArgumentException: File already exists              ,Bug
+NullPointerException: Input data is null                         ,Bug
+SparkException: Job aborted due to stage failure               ,Bug
+IndexOutOfBoundsException: Index out of range                   ,Bug
+NoSuchElementException: Element not found in RDD                ,Bug
+IllegalArgumentException: Invalid configuration property        ,Bug
+FileNotFoundException: File not found                            ,Bug
+ConcurrentModificationException: Concurrent modification        ,Bug
+IOException: Unable to read file                                ,Bug
+TimeoutException: Timed out waiting for response               ,Error
+ClassNotFoundException: Class not found                         ,Bug
+InvalidInputException: Invalid input format                     ,Bug
+OutOfMemoryError: Java heap space exceeded                      ,Bug
+IllegalArgumentException: Invalid argument                     ,Bug
+IllegalStateException: Invalid state                           ,Bug
+ParseException: Error parsing JSON                              ,Bug
+ArrayIndexOutOfBoundsException: Array index out of range        ,Bug
+NullPointerException: Object reference is null                 ,Bug
+KeyNotFoundException: Key not found                            ,Bug
+AssertionError: Assertion failed                                ,Bug
+IllegalArgumentException: Invalid input path                   ,Bug
+InvalidFormatException: Invalid data format                    ,Bug
+NumberFormatException: Invalid number format                    ,Bug
+NoSuchFieldException: Field not found                           ,Bug
+IllegalArgumentException: Invalid configuration value          ,Bug
+ParseException: Error parsing XML                               ,Bug
+IndexOutOfBoundsException: Index is out of bounds              ,Bug
+ClassNotFoundException: Class not found                         ,Bug
+IOException: Unable to write output file                        ,Bug
+OutOfMemoryError: Java heap space exceeded                      ,Bug
+IllegalArgumentException: Invalid argument                     ,Bug
+IllegalStateException: Invalid state                           ,Bug
+ParseException: Error parsing JSON                              ,Bug
+ArrayIndexOutOfBoundsException: Array index out of range        ,Bug
+NullPointerException: Object reference is null                 ,Bug
+KeyNotFoundException: Key not found                            ,Bug
+AssertionError: Assertion failed                                ,Bug
+IllegalArgumentException: Invalid input path                   ,Bug
+InvalidFormatException: Invalid data format                    ,Bug
+NumberFormatException: Invalid number format                    ,Bug
+NoSuchFieldException: Field not found                           ,Bug
+NullPointerException: Attempt to invoke virtual method  on a null object reference       ,Bug
+IllegalArgumentException: Invalid configuration value          ,Bug
+ParseException: Error parsing XML                               ,Bug
+IndexOutOfBoundsException: Index is out of bounds              ,Bug
+404 Not Found: The requested resource was not found             ,Bug
+500 Internal Server Error: An unexpected error occurred         Error
+400 Bad Request: Invalid request parameters                     Error
+401 Unauthorized: Authentication failed                         Error
+403 Forbidden: Access to the resource is denied                 Error
+405 Method Not Allowed: Request method not supported            Error
+502 Bad Gateway: Invalid response received from upstream        Error
+503 Service Unavailable: The server is currently unavailable   Error
+504 Gateway Timeout: The gateway did not receive a timely  response    Error
+422 Unprocessable Entity: Invalid data or request               Error
+429 Too Many Requests: Rate limit exceeded                      Error
+429 Too Many Requests: Rate limit exceeded                      Error
+500 Internal Server Error: An unexpected error occurred         ,Bug
+400 Bad Request: Invalid request parameters                     ,Bug
+408 Request Timeout: The server timed out waiting for the request     ,Bug
+502 Bad Gateway: Invalid response received from upstream        Error
+503 Service Unavailable: The server is currently unavailable   Error
+504 Gateway Timeout: The gateway did not receive a timely response     Error
+422 Unprocessable Entity: Invalid data or request               Error
+429 Too Many Requests: Rate limit exceeded                      Error
